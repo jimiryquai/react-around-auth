@@ -3,8 +3,10 @@
 @import url('./__input/form__input.css');
 @import url('./__input-error/form__input-error.css');
 @import url('./_type/form_type_delete.css');
+@import url('./_type/form_type_login.css');
+@import url('./__title/form__title.css');
 
 .form {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
