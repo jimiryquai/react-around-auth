@@ -1,0 +1,28 @@
+@import url('./_type/form__input_type_error.css');
+
+.form__input {
+    font-family: inherit;
+    color: var(--color-dark);
+    background: transparent;
+    padding: .75rem 0;
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 1px solid var(--color-dark-opaque);
+    display: block;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    font-size: .875rem;
+    line-height: .9375rem;
+    position: relative;
+  }
+
+  .form__input::-webkit-input-placeholder {
+    color: var(--color-dark-opaque);
+  }
+
+  /* @media (min-width: 31.875em) {
+    .form__input {
+        margin-top: 1rem;
+    }
+} */

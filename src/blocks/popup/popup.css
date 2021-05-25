@@ -1,0 +1,31 @@
+@import url('./__close/popup__close.css');
+@import url('./__modal/popup__modal.css');
+@import url('./__figure/popup__figure.css');
+@import url('./__image/popup__image.css');
+@import url('./__caption/popup__caption.css');
+@import url('./_opened/popup_opened.css');
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: calc(100% - 2rem);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: var(--color-darkish);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+
+  .popup:target {
+    opacity: 1;
+    visibility: visible;
+  }

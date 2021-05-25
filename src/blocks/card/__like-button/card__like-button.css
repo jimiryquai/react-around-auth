@@ -1,0 +1,15 @@
+@import url('./_active/card__like-button_active.css');
+
+.card__like-button {
+	border-width: 0;
+	width: 1.8125rem;
+	height: 1.625rem;
+	background: url('../../../images/love.svg') no-repeat;
+	background-position: center;
+	outline: none;
+	align-self: flex-end;
+}
+
+.card__like-button:hover {
+	opacity: 0.8;
+}

@@ -1,0 +1,4 @@
+.card__like-button.card__like-button_active {
+	background: url('../../../../images/black-heart.svg') no-repeat;
+	background-position: center;
+}

@@ -1,0 +1,18 @@
+.popup__modal_type_form {
+    padding: 1rem;
+    width: calc(100% - 3rem);
+    max-width: 26.875rem;
+    height: 16.125rem;
+    max-height: 20.625rem;
+    background-color: var(--color-light);
+    -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 31.875em) {
+    .popup__modal_type_form {
+        height: 20.625rem;
+    }
+}

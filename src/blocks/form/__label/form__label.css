@@ -1,0 +1,11 @@
+.form__label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0 1.5rem;
+}
+@media (min-width: 31.875em) {
+  .form__label {
+    margin-bottom: 2.25rem;
+  }
+}

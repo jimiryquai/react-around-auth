@@ -1,0 +1,30 @@
+:root {
+	/* Font */
+	--font-normal: 400;
+	--font-medium: 500;
+	--font-black: 900;
+	--font-plain: 'Inter', helvetica, arial, sans-serif;
+
+	/* Colors */
+	--color-dark: #000000;
+	--color-dark-opaque: hsla(0, 0%, 0%, 0.2);
+	--color-darkish: hsla(0, 0%, 0%, 0.8);
+	--color-lightish: hsla(0, 0%, 100%, 0.6);
+	--color-light: hsl(0, 0%, 98%);
+	--color-mid: #545454;
+	--color-midish: #545454b3;
+
+	/* Ratios */
+	--ratio: 1.4;
+	--s-5: calc(var(--s0) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio));
+	--s-4: calc(var(--s0) / var(--ratio) / var(--ratio) / var(--ratio) / var(--ratio));
+	--s-3: calc(var(--s0) / var(--ratio) / var(--ratio) / var(--ratio));
+	--s-2: calc(var(--s0) / var(--ratio) / var(--ratio));
+	--s-1: calc(var(--s0) / var(--ratio));
+	--s0: 1rem;
+	--s1: calc(var(--s0) * var(--ratio));
+	--s2: calc(var(--s0) * var(--ratio) * var(--ratio));
+	--s3: calc(var(--s0) * var(--ratio) * var(--ratio) * var(--ratio));
+	--s4: calc(var(--s0) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio));
+	--s5: calc(var(--s0) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio));
+}

@@ -1,0 +1,28 @@
+.button_edit {
+    border: 1px solid var(--color-light);
+    width: 1.125rem;
+    height: 1.125rem;
+    align-self: flex-end;
+    margin-top: -52px;
+    margin-right: -18px;
+    font-size: 0;
+    background: url('../../../images/edit-icon.svg') .46875rem no-repeat;
+    background-position: center;
+}
+
+@media (min-width: 50em) {
+    .button_edit {
+        width: 1.3125rem;
+        height: 1.3125rem;
+        margin-bottom: -52px;
+        align-self: center;
+    }
+}
+
+@media (min-width: 75em) {
+    .button_edit {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-bottom: -60px;
+    }
+}

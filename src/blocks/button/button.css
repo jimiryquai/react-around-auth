@@ -1,0 +1,14 @@
+@import url('./_edit/button_edit.css');
+@import url('./_add/button_add.css');
+@import url('./_submit/button_submit.css');
+@import url('./_inactive/button_inactive.css');
+@import url('./_avatar/button_avatar.css');
+
+.button {
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.button:hover {
+	opacity: 0.6;
+}

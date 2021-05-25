@@ -1,0 +1,9 @@
+.page {
+    max-width: 55.125rem;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    padding: var(--s1) var(--s0) var(--s2);
+  }

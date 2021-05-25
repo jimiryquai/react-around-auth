@@ -1,0 +1,23 @@
+@import url('./__info/profile__info.css');
+@import url('./__name/profile__name.css');
+@import url('./__job/profile__job.css');
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    max-width: 17.625rem;
+    align-items: center;
+    margin-top: var(--s3);
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+
+  @media (min-width: 50em) {
+    .profile {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+  }
+}

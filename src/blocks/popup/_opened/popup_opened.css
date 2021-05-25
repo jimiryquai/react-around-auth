@@ -1,0 +1,9 @@
+.popup.popup_opened {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup.popup_opened:target {
+    opacity: 1;
+    visibility: visible;
+}

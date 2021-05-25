@@ -1,0 +1,22 @@
+.button_avatar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  background-color: var(--color-darkish);
+  background-size: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity ease-in-out 0.5s;
+}
+
+.button_avatar:hover {
+  background-image: url('../../../images/pencil.svg');
+  opacity: 1;
+  cursor: pointer;
+}

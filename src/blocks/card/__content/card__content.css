@@ -1,0 +1,13 @@
+@import url('./_place/card__content_place_left.css');
+@import url('./_place/card__content_place_right.css');
+
+.card__content {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--s1) var(--s0);
+  border-radius: 0 0 20px 20px;
+  white-space: nowrap;
+}

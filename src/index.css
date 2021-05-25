@@ -1,0 +1,26 @@
+/* Normalize */
+@import url('./vendor/normalize.css');
+
+/* Fonts */
+@import url('./lib/fonts.css');
+
+/* Modular scale, colors, etc. */
+@import url('./lib/variables.css');
+
+/* Main documentation styles */
+@import url('./lib/base.css');
+
+/* Blocks */
+@import url('./blocks/page/page.css');
+@import url('./blocks/header/header.css');
+@import url('./blocks/logo/logo.css');
+@import url('./blocks/profile/profile.css');
+@import url('./blocks/button/button.css');
+@import url('./blocks/avatar/avatar.css');
+@import url('./blocks/gallery/gallery.css');
+@import url('./blocks/cards/cards.css');
+@import url('./blocks/card/card.css');
+@import url('./blocks/content-title/content-title.css');
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/popup/popup.css');
+@import url('./blocks/form/form.css');

@@ -1,0 +1,10 @@
+.button_inactive {
+  color: var(--color-dark-opaque);
+  border-color: var(--color-dark-opaque);
+  background: var(--color-light);
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

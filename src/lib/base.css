@@ -1,0 +1,12 @@
+:root {
+    line-height: var(--ratio);
+    font-weight: var(--font-normal);
+    font-family: var(--font-plain);
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    margin: 0;
+    padding: 0;
+  }
+  

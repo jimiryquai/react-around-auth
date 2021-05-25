@@ -1,0 +1,12 @@
+.form__input-error.form__input-error_active {
+    opacity: 1;
+    overflow: scroll;
+    max-height: 1.25rem;
+}
+
+@media (min-width: 31.875em) {
+  .form__input-error.form__input-error_active {
+    overflow: hidden;
+    max-height: 2.5rem;
+  }
+}

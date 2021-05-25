@@ -1,0 +1,16 @@
+.button_add {
+    border: 2px solid var(--color-light);
+    margin-top: 2.25rem;
+    width: 100%;
+    height: 3.125rem;
+    background: url('../../../images/add-icon.svg') 1rem no-repeat;
+    background-position: center;
+}
+
+@media (min-width: 50em) {
+    .button_add {
+        width: 9.375rem;
+        margin-top: 0;
+        margin-left: auto;
+    }
+}
